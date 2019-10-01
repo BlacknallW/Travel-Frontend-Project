@@ -1,0 +1,55 @@
+* {
+    font-family: 'Playfair Display', serif;
+
+}
+
+html {
+    background-image: url("../images/welcomemap.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #E3D8D8;
+}
+
+.introduction-container h2 {
+    text-align:center;
+}
+
+
+.brazil-container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 20px auto 20px;
+    grid-template-rows:auto;
+    float: left;
+    width: 49.5% 
+}
+
+.united-states-container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns:20px auto 20px;
+    grid-template-rows:auto;
+    float: right;
+    width:49.5%
+}
+
+.united-states-content {
+    grid-column-start: 2;
+}
+
+.united-states-container h1 {
+    text-align: center;
+}
+.brazil-content {
+    grid-column-start: 2;
+}
+
+.brazil-content h1{
+    text-align: center
+}
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: lightblue;
+    }
+}
