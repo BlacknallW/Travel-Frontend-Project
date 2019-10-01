@@ -1,0 +1,93 @@
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    background-image: url("../images/welcomemap.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #E3D8D8;
+}
+
+.introduction-container h2 {
+    text-align:center;
+}
+
+
+.brazil-container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 20px auto 20px;
+    grid-template-rows:auto;
+    float: left;
+    width: 49.5%; 
+    background-color: rgba(138, 126, 125, .5);
+    border-radius: 5%;
+}
+
+.united-states-container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns:20px auto 20px;
+    grid-template-rows:auto;
+    float: right;
+    width:49.5%;
+    background-color: rgba(138, 126, 125, .5);
+    border-radius: 5%;
+}
+
+.united-states-content {
+    grid-column-start: 2;
+}
+
+.united-states-container h1 {
+    text-align: center;
+}
+.brazil-content {
+    grid-column-start: 2;
+}
+
+.brazil-content h1{
+    text-align: center
+}
+
+.image {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+p {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: justify;
+} 
+.imagecontent {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    height:auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5%
+}
+
+figcaption {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: center;
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: lightblue;
+    }
+}
