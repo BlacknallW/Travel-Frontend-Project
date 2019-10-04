@@ -4,7 +4,7 @@
 
 body {
   /* background: #212121; */
-  background-image: url("images/background_US.jpg");
+  background-image: url("../images/architecture-astrophotography-buildings-670269.jpg");
   background-size: cover;
 	font-size: 20px;
 	line-height: 32px;
@@ -13,6 +13,8 @@ body {
 	padding: 0;
 	/* word-wrap:break-word !important; */
   font-family: 'Open Sans', sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 	}
 
 h1 {
@@ -202,7 +204,7 @@ li > a:after { content:  ''; }
   background-color: #1a1e21
 }
 .weather-box {
-  background-image: url("images/weather.jpeg");
+  background-image: url("../images/weather.jpeg");
   background-size: cover;
   display:grid;
   justify-self: center;
@@ -422,7 +424,7 @@ li > a:after { content:  ''; }
 .currency-box {
     grid-column-start: 1;
     grid-row-start: 3;
-    background-image: url("images/astronomy-comet-constellation-631477.jpg");
+    background-image: url("../images/astronomy-comet-constellation-631477.jpg");
     background-size: cover;
 }
 .form-box {
@@ -449,12 +451,14 @@ li > a:after { content:  ''; }
     grid-column: 2;
     width: 30px;
     background-color: rgba(35, 42, 48, .4);
+    border-radius: 10px;
 }
 .traveler-number {
     grid-row: 1;
     grid-column: 2;
     width: 30px;
     background-color: rgba(35, 42, 48, .4);
+    border-radius: 10px;
 }
 .travelers {
     grid-row: 1;
@@ -481,7 +485,8 @@ label {
 .currency-input {
     grid-row: 2;
     width: 100%;
-    background-color: rgba(35, 42, 48, .4)
+    background-color: rgba(35, 42, 48, .4);
+    border-radius: 10px;
 }
 .calculate {
     grid-column: 3;
@@ -492,7 +497,7 @@ label {
     margin-right: auto;*/
     display:block;
     /* margin-top: 10px; */
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: rgba(35, 42, 48, .4)
 }
 .calculate{
