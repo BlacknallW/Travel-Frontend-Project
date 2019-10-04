@@ -5,7 +5,7 @@
         <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         <title>Brazil</title>
         <meta name="author" content="">
-        <link rel="stylesheet" href="travel.css">
+        <link rel="stylesheet" href="./styles/travel.css">
     </head>
     <body>
             <nav>
@@ -15,7 +15,7 @@
                     <li><a href="https://www.lonelyplanet.com/brazil/bahia" target="_blank"> Bahia</a></li>
                     <li><a href="https://www.lonelyplanet.com/brazil/the-south/foz-do-iguacu" target="_blank">Foz do Iguacu</a></li>
                     <li><a href="https://www.chimuadventures.com/blog/2016/10/culture-and-customs-of-brazil/" target="_blank">Culture</a></li>
-                    <li><a href="http://www.braziltravelblog.com/" target="_blank">Blog</a></li>
+                    <li><a href="welcome.html">Home</a></li>
                     <li><a href="https://brazilian.report/" target="_blank">The Brazilian Report</a></li>
                 </ul>    
                 </nav>
@@ -87,7 +87,7 @@
                     </div>  
                     <div class="currency-input-column">
                         <label class="label">Input your currency:</label>
-                        <input list="currencyinput" class="currency-input">
+                        <input list="currencyinput" class="currency-input" id="userCurrency">
                         <datalist id="currencyinput">
                             <option value="USD">United States Dollar</option>
                             <option value="CAD">Canadian Dollar</option>
@@ -126,29 +126,24 @@
                     </div>
                     <input type="submit" value="Calculate" class="calculate">
                     <label class="description">Description</label>
-                    <label class="avg-cost">Avg Cost USD</label>
+                    <label class="avg-cost">Avg Cost BRL</label>
                     <label class="cost-tab">Cost in RON</label>
                     <div class="hotel">
-                        <input type="checkbox" name="options" value="Hotel" class="hotel-box" id="hotel">
                         <label for="hotel"class="hotel-name">Hotel</label>
                     </div>
                     <div class="food">
-                        <input type="checkbox" name="options" value="Food" class="food-box" id="food">
                         <label for="food" class="food-name">Food</label>
                     </div>
-                    <div class="entertainment">
-                        <input type="checkbox" name="options" value="Entertainment" class="entertainment-box" id="entertainment">
+                    <div class="entertainment">>
                         <label for="entertainment" class="entertainment-name">Entertainment</label>
                     </div>
                     <div class="transportation"> 
-                        <input type="checkbox" name="options" value="transportation" class="transportation-box" id="transportation">
                         <label for="transportation" class="transportation-name">Transportation</label>
-    
                     </div>
-                        <label class="hotel-us-cost" id="hotelUsCost">$600</label>
-                        <label class="food-us-cost" id="foodUsCost">$300</label>
-                        <label class="entertainment-us-cost" id="entertainmentUsCost">$400</label>
-                        <label class="transportation-us-cost" id="transportationUsCost">$600</label>
+                        <label class="hotel-us-cost" id="hotelBrazilCost">$600</label>
+                        <label class="food-us-cost" id="foodBrazilCost">$300</label>
+                        <label class="entertainment-us-cost" id="entertainmentBrazilCost">$400</label>
+                        <label class="transportation-us-cost" id="transportationBrazilCost">$600</label>
                         <label class="hotel-user-cost" id="hotelUserCost">1200RON</label>
                         <label class="food-user-cost" id="foodUserCost">1500RON</label>
                         <label class="entertainment-user-cost" id="entertainmentUserCost">600RON</label>
