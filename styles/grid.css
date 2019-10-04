@@ -214,29 +214,24 @@ li > a:after { content:  ''; }
 }
 .city-name {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 1;
-  width: 250px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   background-color: rgba(33, 40, 46, 0.4)
 }
-.day {
-  margin: 0;
-  padding: 0.5px;
-  width: 65px;
-}
+
 .day1 {
   grid-column-start: 1;
   grid-column-end:2;
   grid-row-start: 2;
   grid-row-end: 2;
   width: 125px;
-  text-align: center;
   font-size: 40px;
   border-bottom: 1px solid white;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .condition-list {
   grid-column-start: 3;
@@ -244,12 +239,12 @@ li > a:after { content:  ''; }
   grid-row-start: 2;
   grid-row-end: 2;
   width: 125px;
-  contain: content;
-  text-align: center;
+  font-size: 16px;
   list-style: none;
   border-bottom: 1px solid white;
   margin:0 auto;
   padding: 0;
+  line-height: 25px;
 }
 .day2 {
   grid-column-start: 1;
@@ -300,7 +295,7 @@ li > a:after { content:  ''; }
   border-top: 1px solid white;
   margin-top: 50px;
   padding-top: 0.5px;
-  font-size: 16px;
+  font-size: 13px;
 }
 .categories {
   grid-column-start:1;
@@ -312,7 +307,6 @@ li > a:after { content:  ''; }
   grid-template-rows: 50px 50px 50px 50px 50px; 
   display: grid;
   justify-self: center;
-   
 }
 .list{
 	padding-inline-start: 0.5px;
@@ -432,7 +426,6 @@ li > a:after { content:  ''; }
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 41px 41px 41px 41px 41px 41px;
     border: 1px solid black;
-    margin:0;
 }
 .form-box *{
     font-size: 12px;
@@ -476,11 +469,10 @@ li > a:after { content:  ''; }
     grid-template-rows: 20.5px 20.5px;
     
 }
-label {
-    /* grid-row: 1; */
+.label {
+    grid-row: 1;
     width: 100%;
     font-size: 13px;
-    text-align: center;
 }
 .currency-input {
     grid-row: 2;
@@ -493,10 +485,10 @@ label {
     grid-row: 1;
     height:50%;
     width: 60%;
-    /*margin-left:auto;
-    margin-right: auto;*/
+    margin-left:auto;
+    margin-right: auto;
     display:block;
-    /* margin-top: 10px; */
+    margin-top: 10px;
     border-radius: 10px;
     background-color: rgba(35, 42, 48, .4)
 }
@@ -593,7 +585,6 @@ label {
 .hotel-user-cost {
     grid-row: 3;
     grid-column: 3;
-    text-align: center;
 }
 .food-user-cost {
     grid-row:4;
