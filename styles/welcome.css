@@ -74,9 +74,19 @@ figcaption {
     text-align: center;
     font-size: 14px;
 }
-@media only screen and (max-width: 600px) {
-    body {
-    background-color: lightblue;
+@media only screen and (max-width: 640px) {
+    .brazil-container {
+        display:flex;
+        justify-self: flex-start;
+        float:none;
+        width:100%;
+
+    }
+    .united-states-container {
+        display: flex;
+        justify-self: flex-end;
+        float:none;
+        width: 100%;
     }
 }
 
