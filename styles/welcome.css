@@ -19,7 +19,7 @@ html {
     text-align:center;
 }
 
-
+/*Creates Brazil grid*/
 .brazil-container {
     display: grid;
     border: 1px solid black;
@@ -28,9 +28,9 @@ html {
     float: left;
     width: 49.5%; 
     background-color: rgba(26, 27, 28, .9);
-    border-radius: 2.5%;
+    border-radius: 10px;
 }
-
+/*Creates US grid*/ 
 .united-states-container {
     display: grid;
     border: 1px solid black;
@@ -39,7 +39,7 @@ html {
     float: right;
     width:49.5%;
     background-color: rgba(26, 27, 28, .9);
-    border-radius: 2.5%;
+    border-radius: 10px;
 }
 
 .united-states-container h1, .brazil-content h1 {
