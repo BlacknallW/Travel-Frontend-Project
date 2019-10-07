@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     }
+
+html {
+    background-image: url("../images/backlit-beach-boats-585758.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 nav ul {
     background-color: #333;
     /* float:right; */
@@ -16,6 +23,9 @@ nav ul {
     flex-direction: row;
     justify-content: space-between; 
 
+}
+nav li:hover{
+    background-color: #4b4a5c;
 }
 nav ul li {
     margin: 0px;
