@@ -169,23 +169,23 @@ const currencyExchange = (userCurrency) => {
         const travelerCurrency = data.rates[userCurrency]
 
         //Calculating the cost of each category based on general average price statistics.
-        const usHotelPrice = 150 * (nightsNumber * travelerNumber)
-        const usFoodCost = 82 * (travelerNumber * nightsNumber)
-        const usEntertainmentCost = 150 * (travelerNumber * nightsNumber)
-        const usTransportationCost = 1000 + (60 * (travelerNumber * nightsNumber))
+        const BrazilHotelPrice = 340 * (nightsNumber * travelerNumber)
+        const BrazilFoodCost = 56 * (travelerNumber * nightsNumber)
+        const BrazilEntertainmentCost = 50 * (travelerNumber * nightsNumber)
+        const BrazilTransportationCost = 4100 + (100 * (travelerNumber * nightsNumber))
         
         //Adding cost calculations to HTML document
         $("#costTab").html(`Cost in ${userCurrency}`)
-        $("#hotelBrazilCost").html(`R$${usHotelPrice}`)
-        $('#foodBrazilCost').html(`R$${usFoodCost}`)
-        $('#entertainmentBrazilCost').html(`R$${usEntertainmentCost}`)
-        $('#transportationBrazilCost').html(`R$${usTransportationCost}`)
+        $("#hotelBrazilCost").html(`R$${BrazilHotelPrice}`)
+        $('#foodBrazilCost').html(`R$${BrazilFoodCost}`)
+        $('#entertainmentBrazilCost').html(`R$${BrazilEntertainmentCost}`)
+        $('#transportationBrazilCost').html(`R$${BrazilTransportationCost}`)
 
         //Calculates the user cost in their native currency by multiplying it times USD
-        const userHotelPrice = `${(usHotelPrice * travelerCurrency).toFixed(2)}${userCurrency}`
-        const userFoodCost = `${(usFoodCost * travelerCurrency).toFixed(2)}${userCurrency}`
-        const userEntertainmentCost = `${(usEntertainmentCost * travelerCurrency).toFixed(2)}${userCurrency}`
-        const userTransportationCost = `${(usTransportationCost * travelerCurrency).toFixed(2)}${userCurrency}`
+        const userHotelPrice = `${(BrazilHotelPrice * travelerCurrency).toFixed(2)}${userCurrency}`
+        const userFoodCost = `${(BrazilFoodCost * travelerCurrency).toFixed(2)}${userCurrency}`
+        const userEntertainmentCost = `${(BrazilEntertainmentCost * travelerCurrency).toFixed(2)}${userCurrency}`
+        const userTransportationCost = `${(BrazilTransportationCost * travelerCurrency).toFixed(2)}${userCurrency}`
 
         //Adding cost calculations to HTML document
         $("#hotelUserCost").html(userHotelPrice)

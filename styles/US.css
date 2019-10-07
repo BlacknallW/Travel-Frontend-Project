@@ -112,12 +112,7 @@ nav a {
 }
 
 
-nav ul li ul li:hover { background: #000000; }
-
-/* Background color change on Hover */
-nav a:hover { 
-	background-color: #000000; 
-}
+nav li:hover { background: #4b4a5c; }
 
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */

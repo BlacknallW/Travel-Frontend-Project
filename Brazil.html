@@ -5,17 +5,18 @@
         <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         <title>Brazil</title>
         <meta name="author" content="">
-        <link rel="stylesheet" href="./styles/travel.css">
+        <link rel="stylesheet" href="./styles/Brazil.css">
     </head>
     <body>
             <nav>
                 <!--below these are my nav bar links that will open in another tap-->
                 <ul class="nav">
+                    <li><a href="welcome.html">Home</a></li>
                     <li><a href="https://www.lonelyplanet.com/brazil/rio-de-janeiro" target="_blank">Rio De Janerio</a></li>
                     <li><a href="https://www.lonelyplanet.com/brazil/bahia" target="_blank"> Bahia</a></li>
                     <li><a href="https://www.lonelyplanet.com/brazil/the-south/foz-do-iguacu" target="_blank">Foz do Iguacu</a></li>
                     <li><a href="https://www.chimuadventures.com/blog/2016/10/culture-and-customs-of-brazil/" target="_blank">Culture</a></li>
-                    <li><a href="welcome.html">Home</a></li>
+
                     <li><a href="https://brazilian.report/" target="_blank">The Brazilian Report</a></li>
                 </ul>    
                 </nav>
@@ -127,7 +128,7 @@
                     <input type="submit" value="Calculate" class="calculate">
                     <label class="description">Description</label>
                     <label class="avg-cost">Avg Cost BRL</label>
-                    <label class="cost-tab">Cost in RON</label>
+                    <label class="cost-tab" id="costTab">Cost in</label>
                     <div class="hotel">
                         <label for="hotel"class="hotel-name">Hotel</label>
                     </div>
@@ -140,14 +141,14 @@
                     <div class="transportation"> 
                         <label for="transportation" class="transportation-name">Transportation</label>
                     </div>
-                        <label class="hotel-us-cost" id="hotelBrazilCost">$600</label>
-                        <label class="food-us-cost" id="foodBrazilCost">$300</label>
-                        <label class="entertainment-us-cost" id="entertainmentBrazilCost">$400</label>
-                        <label class="transportation-us-cost" id="transportationBrazilCost">$600</label>
-                        <label class="hotel-user-cost" id="hotelUserCost">1200RON</label>
-                        <label class="food-user-cost" id="foodUserCost">1500RON</label>
-                        <label class="entertainment-user-cost" id="entertainmentUserCost">600RON</label>
-                        <label class="transportation-user-cost" id="transportationUserCost">900RON</label>
+                        <label class="hotel-us-cost" id="hotelBrazilCost">R$340</label>
+                        <label class="food-us-cost" id="foodBrazilCost">R$56</label>
+                        <label class="entertainment-us-cost" id="entertainmentBrazilCost">R$50</label>
+                        <label class="transportation-us-cost" id="transportationBrazilCost">R$4200</label>
+                        <label class="hotel-user-cost" id="hotelUserCost"></label>
+                        <label class="food-user-cost" id="foodUserCost"></label>
+                        <label class="entertainment-user-cost" id="entertainmentUserCost"></label>
+                        <label class="transportation-user-cost" id="transportationUserCost"></label>
                 </form>
     
             </div>
@@ -155,7 +156,7 @@
         </div> 
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="scripts/travel.js"></script>
+        <script src="scripts/Brazil.js"></script>
     </body>
     
 </html>
