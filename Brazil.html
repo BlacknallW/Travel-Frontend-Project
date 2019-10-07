@@ -19,37 +19,35 @@
 
                     <li><a href="https://brazilian.report/" target="_blank">The Brazilian Report</a></li>
                 </ul>    
-                </nav>
+            </nav>
                 <!-- My grid is wrapped in flexbox, and it allows my grid to be responsive.
-                 Also below is the grid that holds the images in main.-->
-                <div class="flexbox">
-        <main class="grid">
-              
-                <div class="image1" id="Rio de Janerio" >
-                    <img  class="image1img" src="images/Christ-the-Redeemer-980x613.jpg">
-                </div>
-                <div class="image2" id="Rio De Janerio" >
-                    <img class="image2" src="images/Escalera coloridas-Selaron5-.jpeg">
-                </div>
-                <div class="image3"  id="Bahia">
-                    <img class="image3" src="images/salvador-brazil-postcard.webp">
-                </div>
-                <div class="image4" id="Bahia City">
-                    <img class="image4" src="images/Bahia-street.jpg">
-                </div>
-                <div class="image5" id="Foz do Iguacu" >
-                    <img class="image5" src="images/foz-iguazufalls.jpg">     
-                </div>
-                    
-            </main>
-          <!--below is the info-box that is positioned to the right og the website, this will be link with the weatherapi-->
+                Also below is the grid that holds the images in main.-->
+            <div class="flexbox">
+                <main class="grid">
+                    <div class="image1" id="Rio de Janerio" >
+                        <img  class="image1img" src="images/Christ-the-Redeemer-980x613.jpg">
+                    </div>
+                    <div class="image2" id="Rio De Janerio" >
+                        <img class="image2" src="images/Escalera coloridas-Selaron5-.jpeg">
+                    </div>
+                    <div class="image3"  id="Bahia">
+                        <img class="image3" src="images/salvador-brazil-postcard.webp">
+                    </div>
+                    <div class="image4" id="Bahia City">
+                        <img class="image4" src="images/Bahia-street.jpg">
+                    </div>
+                    <div class="image5" id="Foz do Iguacu" >
+                        <img class="image5" src="images/foz-iguazufalls.jpg">     
+                    </div>
+                </main>
+        <!--below is the info-box that is positioned to the right og the website, this will be link with the weatherapi-->
         <div class="info-box">
                 <div class="weather-box" id="weatherBox">
                     <p class="city-name" id="cityName">
-                      
+                    
                     </p>
                     <p class="day1" id="day1">
-                       
+                    
                     </p>
                     <ul class="condition-list">
                         <li id="precipitation"></li>
@@ -64,20 +62,16 @@
                     <p class="ext-forecast">Extended Forecast</p>
                 </div>
                 <div class="location-box">
-        ​           <ul>
-                <li class="home" id ="City">Home</li> 
-                <li class="Flights"><a id ="Flights" style="text-decoration: none" target="_blank">Flights</a></li>
-                <li class="Accomodations"><a id ="Accomodations" style="text-decoration: none" target="_blank">Accomodations</a></li>
-                <li class="Restaurants"><a id ="Restaurants" style="text-decoration: none" target="_blank">Restaurants</a></li>
-                <li class="MainAttractions"><a id ="MainAttractions" style="text-decoration: none" target="_blank">MainAttractions</a></li>
-                <li class="Tours"><a id ="Tours" style="text-decoration: none" target="_blank">Tours</a></li>
-                <li class="Shopping"><a id ="Shopping" style="text-decoration: none" target="_blank">Shopping</a></li>
-                  
+                    <ul class="link-list">
+                        <li class="home" id ="City">Home</li> 
+                        <li class="Flights"><a id ="Flights" target="_blank">Flights</a></li>
+                        <li class="Accomodations"><a id ="Accomodations" target="_blank">Accomodations</a></li>
+                        <li class="Restaurants"><a id ="Restaurants" target="_blank">Restaurants</a></li>
+                        <li class="MainAttractions"><a id ="MainAttractions" target="_blank">Main Attractions</a></li>
+                        <li class="Tours"><a id ="Tours" target="_blank">Tours</a></li>
+                        <li class="Shopping"><a id ="Shopping" target="_blank">Shopping</a></li>
                     </ul>
-
                 </div>
-                <div class="currency-box">
-        ​
         <div class="currency-box">
                 <form class="form-box" id="currencyForm">
                 <div class="trip-box">
@@ -135,7 +129,7 @@
                     <div class="food">
                         <label for="food" class="food-name">Food</label>
                     </div>
-                    <div class="entertainment">>
+                    <div class="entertainment">
                         <label for="entertainment" class="entertainment-name">Entertainment</label>
                     </div>
                     <div class="transportation"> 
@@ -151,9 +145,8 @@
                         <label class="transportation-user-cost" id="transportationUserCost"></label>
                 </form>
     
-            </div>
+        </div>
                 </div>
-        </div> 
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="scripts/Brazil.js"></script>

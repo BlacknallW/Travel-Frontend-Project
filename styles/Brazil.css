@@ -44,10 +44,7 @@ nav a {
 }
 
 main {
-    padding-top: 35px;
-    width: 80%;
-    margin: auto; 
-    background-color: #dddddd;
+    margin: auto;
 }
 
 
@@ -87,10 +84,10 @@ main {
     grid-row-end: 1;
     grid-column-end: 3;
     /* Centered text */
-  
+
    /* width: 550px; */
    /* /height: 200px;  */
-   overflow: hidden;
+    overflow: hidden;
 
 }
 .image1img {
@@ -245,15 +242,28 @@ main {
     justify-items: center;
     
 }
-ul{
+.link-list {
     list-style-type:none;
     padding-inline-start: 0px;
-    margin: 0px:
+    margin: 0px;
 
+}
+
+.link-list * {
+    color: black;
+    text-decoration: none;
+}
+
+.link-list li:hover{
+    background-color: #4b4a5c;
+    color: white;
+}
+
+.link-list li:first-child{
+    background-color: #c89489
 }
 .home{ 
     grid-row: auto;
-    background-color: #c89489;
     list-style: none;
     margin:10px;
     padding: 10px;
@@ -302,16 +312,11 @@ ul{
     text-align: center;
     
 }
-.currency-box {
-    grid-column-start: 1;
-    grid-row-start: 3;
-    border: 1px solid black;
-}
 
 .currency-box {
     grid-column-start: 1;
     grid-row-start: 3;
-    background-image: url("../images/astronomy-comet-constellation-631477\ \(1\).jpg");
+    background-image: url("../images/astronomy-comet-constellation-631477.jpg");
     background-size: cover;
 
 }
@@ -341,14 +346,16 @@ ul{
     grid-row: 2;
     grid-column: 2;
     width: 30px;
-    background-color: rgba(35, 42, 48, .4)
+    background-color: rgba(35, 42, 48, .4);
+    border-radius: 10px;
 }
 
 .traveler-number {
     grid-row: 1;
     grid-column: 2;
     width: 30px;
-    background-color: rgba(35, 42, 48, .4)
+    background-color: rgba(35, 42, 48, .4);
+    border-radius: 10px;
 }
 
 .travelers {
@@ -369,7 +376,7 @@ ul{
     grid-template-rows: 20.5px 20.5px;
     
 }
-label {
+.label {
     grid-row: 1;
     width: 100%;
     font-size: 13px;
@@ -378,7 +385,8 @@ label {
 .currency-input {
     grid-row: 2;
     width: 100%;
-    background-color: rgba(35, 42, 48, .4)
+    background-color: rgba(35, 42, 48, .4);
+    border-radius: 10px
 }
 
 .calculate {
@@ -386,11 +394,11 @@ label {
     grid-row: 1;
     height:50%;
     width: 50%;
-    /* margin-left:auto; */
+    margin-left:auto;
     margin-right: auto;
     display:block;
-    /* margin-top: 10px; */
-    border-radius: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
     background-color: rgba(35, 42, 48, .4)
 }
 
